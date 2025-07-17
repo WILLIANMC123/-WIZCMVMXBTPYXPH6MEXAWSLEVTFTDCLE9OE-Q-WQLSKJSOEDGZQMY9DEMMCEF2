@@ -6,7 +6,7 @@ function verificarResposta() {
   const respostaUsuario = input.value.trim().toLowerCase();
 
   if (respostaUsuario === respostaCorreta.toLowerCase()) {
-    mensagem.textContent = "✔️ Resposta correta! Muito bem!";
+    mensagem.textContent = "✔️ Resposta correta! Muito bem! vá ao privado de um dos ADM e escreva: Ademir"";
     mensagem.classList.remove("errada");
     mensagem.classList.add("correta");
   } else {
