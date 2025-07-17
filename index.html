@@ -4,18 +4,23 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Resposta do Enigma</title>
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="estilo.css" />
 </head>
 <body>
   <div class="container">
     <h1>Qual é a resposta do enigma?</h1>
-    <input type="text" placeholder="Digite sua resposta aqui..." />
-    <button>Enviar</button>
+    
+    <input id="resposta" type="text" placeholder="Digite sua resposta aqui..." />
+    <button onclick="verificarResposta()">Enviar</button>
+
+    <p id="mensagem" class="mensagem"></p>
 
     <div class="imagem">
       <!-- Substitua o src pela imagem desejada -->
       <img src="imagem.jpg" alt="Imagem do enigma" />
     </div>
   </div>
+
+  <script src="script.js"></script>
 </body>
 </html>
