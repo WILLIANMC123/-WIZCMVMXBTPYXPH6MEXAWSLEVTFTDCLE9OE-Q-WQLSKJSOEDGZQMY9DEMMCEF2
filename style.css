@@ -62,3 +62,17 @@ button:hover {
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
+
+.mensagem {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.mensagem.correta {
+  color: #00ff88;
+}
+
+.mensagem.errada {
+  color: #ff5555;
+}
