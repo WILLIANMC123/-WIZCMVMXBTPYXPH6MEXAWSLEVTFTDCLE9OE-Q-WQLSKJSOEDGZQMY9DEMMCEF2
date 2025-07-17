@@ -1,5 +1,5 @@
 function verificarResposta() {
-  const respostaCorreta = "o erro é a portal para a descoberta"; // <- Edite aqui sua resposta correta
+  const respostaCorreta = "o erro é a portal para a descoberta"; // <- Altere aqui a resposta se quiser
   const input = document.getElementById("resposta");
   const mensagem = document.getElementById("mensagem");
 
